@@ -23,6 +23,7 @@ import "strconv"
 import "runtime"
 
 func usage() {
+	// TEST
 	fmt.Printf("Usage: diskvd -g gid -m master... -s server... -i my-index -d dir\n")
 	os.Exit(1)
 }
