@@ -27,6 +27,11 @@ type RPCReply struct {
 	Taskinfo TaskReply
 }
 
+
+type RPCArgs struct {
+	Taskinfo TaskArgs
+}
+
 // Cook up a unique-ish UNIX-domain socket name
 // in /var/tmp, for the master.
 // Can't use the current directory since
